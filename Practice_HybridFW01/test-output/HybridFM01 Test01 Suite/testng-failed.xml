@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [HybridFM01 Test01 Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Automation Exercise Testcases(failed)">
+    <classes>
+      <class name="com.mypractice.qa.testcase.SearchTest">
+        <methods>
+          <include name="verifySearchWithValidProduct"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.mypractice.qa.testcase.SearchTest -->
+    </classes>
+  </test> <!-- Automation Exercise Testcases(failed) -->
+</suite> <!-- Failed suite [HybridFM01 Test01 Suite] -->
